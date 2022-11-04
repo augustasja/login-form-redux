@@ -1,0 +1,23 @@
+.container {
+    padding: 0 2rem;
+    position: relative;
+}
+
+.input-primary,
+.btn-primary {
+    padding: 0.75rem 0;
+    width: 27rem;
+    margin: 0.75rem 0;
+    padding-left: 4rem;
+    font-size: 19px;
+}
+
+.btn-primary {
+    margin: 0;
+    padding: 0.75rem 0;
+    transition: transform ease-in 150ms;
+
+    &:hover {
+        transform: scale(1.01);
+    }
+}

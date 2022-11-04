@@ -1,0 +1,20 @@
+@media(max-width: 860px) {
+    .container {
+        padding: 0 1rem;
+    }
+    .landing-page {
+        justify-content: inherit;
+    }
+    .input-primary, .btn-primary {
+        width: 100%;
+    }
+
+    .top-left-figure, .bottom-left-figure, .bottom-right-figure {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bottom-left-figure {
+        width: 150px;
+    }
+}
